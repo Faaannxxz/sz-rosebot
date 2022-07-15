@@ -44,7 +44,7 @@ async def cbots(client, message: Message, _):
         chatb.delete_one({f"chatbot": group_id})
     else:
         return await sex.edit(_["chatb1"])
-    await sex.edit(f"✅ **Successfully** `{'Enabled' if lower_args=='on' else 'Disabled'}` ** Chat bot**")
+    await sex.edit(f"✅ **Sukses Diaktifkan** `{'Enabled' if lower_args=='on' else 'Disabled'}` ** Obrolan AI**")
 
 @app.on_message(
     filters.text
@@ -104,7 +104,7 @@ async def szcbot(_, message: Message):
 
 __MODULE__ = f"{Chat_Bot}"
 __HELP__ = """
-**Chatbot**
+**Botchat AI**
 
 AI based chatbot allows rose to talk and provides a more interactive group chat experience.
 
